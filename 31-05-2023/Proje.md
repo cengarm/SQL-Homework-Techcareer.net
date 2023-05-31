@@ -9,11 +9,14 @@
 DIKKAT! : Asagidaki sorulari yazmadan once CTAS kullanarak tablolarin back up ini olusturup o kopya uzerinden testlerinizi yazin. Aksi halde orjinal tablo yapisini kaybedeceginizden onumuzdeki derslerde yazacaginiz queryler calismayabilir!!!
 Alttaki Soru 4 icin Ornek : create table employees_bckp as ( select * from hr.employees)) dedikten sonra employees_bckp tablsounda sutun adi degistirme islemini yapin.
 
-# 4-) "employees" tablosundaki "job_id" sütununun adını "position_id" olarak değiştirin.
+# 4-) "employees" tablosundaki "job_id" sütununun adını "position_id" olarak değiştirin. (AS kullanımı)
+![image](https://github.com/cengarm/SQL-Homework-Techcareer.net/assets/126611512/c4bd74e9-4f74-48b3-becf-21c2b3bfe4cb)
 
-# 5-) "employees" tablosundaki "salary" sütununun veri tipini NUMBER(10, 2)'den NUMBER(12, 2)'ye değiştirin.
+# 5-) "employees" tablosundaki "salary" sütununun veri tipini NUMBER(10, 2)'den NUMBER(12, 2)'ye değiştirin. (Alter)
+![image](https://github.com/cengarm/SQL-Homework-Techcareer.net/assets/126611512/91a93030-5441-4ba8-ab76-5deeb3f3c9ca)
 
 # 6-) "departments" tablosundaki "department_name" sütununun adını "dept_name" olarak değiştirin.
+![image](https://github.com/cengarm/SQL-Homework-Techcareer.net/assets/126611512/d1878383-a496-4675-b8d8-2486c38f9415)
 
 # 7-) Oncelikle database uzerinde ‘test_user’ isimli bir kullanici yaratin.
 "employees" tablosunda "full_name" sütununa SELECT iznini "test_user" kullanıcısına verin.
