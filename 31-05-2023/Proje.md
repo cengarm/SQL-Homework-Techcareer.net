@@ -1,10 +1,10 @@
 
 # 1-)Employees tablosundaki iş unvanı 'Programcı' olan tüm çalışanların çalışan ID'sini, adını ve soyadını getirin.
 ![image](https://github.com/cengarm/SQL-Homework-Techcareer.net/assets/126611512/bf8cda68-9f1a-43bd-9d96-2525617ceeca)
-
 # 2-)Departments tablosundaki konum ID'si 1700 olan tüm departmanların departman ID'sini, departman adını ve yönetici ID'sini getirin.
-
+![image](https://github.com/cengarm/SQL-Homework-Techcareer.net/assets/126611512/afc93d81-7af6-4f7b-804d-c5356d6ed01b)
 # 3-)Jobs tablosundaki maksimum maaşı $10,000'den büyük olan işlerin iş ID'sini, iş unvanını ve maksimum maaşı getirin.
+![image](https://github.com/cengarm/SQL-Homework-Techcareer.net/assets/126611512/a4468034-4705-4200-ab6a-69f9c81f40d3)
 
 DIKKAT! : Asagidaki sorulari yazmadan once CTAS kullanarak tablolarin back up ini olusturup o kopya uzerinden testlerinizi yazin. Aksi halde orjinal tablo yapisini kaybedeceginizden onumuzdeki derslerde yazacaginiz queryler calismayabilir!!!
 Alttaki Soru 4 icin Ornek : create table employees_bckp as ( select * from hr.employees)) dedikten sonra employees_bckp tablsounda sutun adi degistirme islemini yapin.
